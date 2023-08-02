@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Селекторы</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h2 class="header-title">Какими бывают селекторы?</h2>
+        <p class="header-subtitle">Селекторы - это части кода CSS (Cascading Style Sheets), которые позволяют выбирать
+            и стилизовать HTML
+            элементы
+            на странице. Селекторы указывают браузеру, какие элементы нужно изменить или стилизовать, используя правила
+            CSS.
+        </p>
+
+    </header>
+
+    <main>
+        <div class="cards">
+            <div class="card">
+                <h5>Селектор по названию элемента:</h5>
+                <p>Выбирает все элементы определенного типа. Например, p выберет все абзацы "p" на странице.</p>
+            </div>
+            <div class="card">
+                <h5>Селектор по id:</h5>
+                <p>Выбирает уникальный элемент по его идентификатору. Например, #header выберет элемент с id="header".
+                </p>
+            </div>
+            <div class="card">
+                <h5>Селектор по классу:</h5>
+                <p>Выбирает все элементы с определенным классом. Например, .button выберет все элементы с class="button".
+                </p>
+            </div>
+            <div class="card">
+                <h5>Селектор по нескольким классам:</h5>
+                <p>Выбирает элементы, которые имеют одновременно несколько классов. Например, .violet.bold выберет
+                    элементы с классами class="violet bold".</p>
+            </div>
+            <div class="card">
+                <h5>Селектор по вложенности:</h5>
+                <p>Выбирает элементы, которые находятся внутри другого элемента. Например, ul li выберет все элементы
+                    li, которые находятся внутри ul.</p>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="list">
+
+                <h1 id="header">Заголовок с id="header".</h1>
+                <h2 id="subheader">Подзаголовок с id="subheader".</h2>
+
+                <p class="button">Это абзац с классом "button".</p>
+                <p class="violet bold">Это абзац с классами "violet" и "bold".</p>
+                <ul>
+                    <li>Элемент списка 1</li>
+                    <li>Элемент списка 2</li>
+                </ul>
+                <p class="link">Это абзац с классом "link".</p>
+
+                <ul>
+                    <li><a href="#">Ссылка в списке 1</a></li>
+                    <li><a href="#">Ссылка в списке 2</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

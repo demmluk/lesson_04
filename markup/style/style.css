@@ -1,0 +1,98 @@
+body {
+    background-image: url(/lesson_04/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    color: #81ffe4;
+    width: 550px;
+    padding-left: 50px;
+}
+
+.card {
+    border: 1px solid #11ffeb;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
+
+.card h5 {
+    font-size: 13px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.container {
+    background-image: url(/lesson_04/images/bg2.jpg);
+    background-size: 100%;
+    width: 100%;
+    margin-top: 280px;
+    height: 800px;
+}
+
+.list {
+    padding-top: 200px;
+    text-align: center;
+}
+
+
+
+
+#header {
+    color: rgb(255, 0, 64);
+
+}
+
+#subheader {
+    color: rgb(255, 0, 179);
+}
+
+.button {
+    color: rgb(162, 0, 255);
+}
+
+
+.violet.bold {
+    color: rgb(68, 0, 255);
+    font-weight: bold;
+}
+
+
+ul li {
+    color: rgb(0, 119, 255);
+}
+
+
+.link {
+    color: rgb(0, 225, 255);
+}
+
+
+ul li a {
+    color: rgb(0, 255, 179);
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
