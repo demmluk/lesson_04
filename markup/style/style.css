@@ -1,5 +1,5 @@
 body {
-    background-image: url(/lesson_04/markup/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -34,7 +34,6 @@ body {
     font-size: 13px;
 }
 
-
 .cards {
     display: flex;
     justify-content: space-between;
@@ -44,7 +43,7 @@ body {
 }
 
 .container {
-    background-image: url(/lesson_04/markup/images/bg2.jpg);
+    background-image: url(../images/bg2.jpg);
     background-size: 100%;
     width: 100%;
     margin-top: 280px;
@@ -55,9 +54,6 @@ body {
     padding-top: 200px;
     text-align: center;
 }
-
-
-
 
 #header {
     color: rgb(255, 0, 64);
@@ -72,27 +68,24 @@ body {
     color: rgb(162, 0, 255);
 }
 
-
 .violet.bold {
     color: rgb(68, 0, 255);
     font-weight: bold;
 }
 
-
 ul li {
     color: rgb(0, 119, 255);
 }
-
 
 .link {
     color: rgb(0, 225, 255);
 }
 
-
 ul li a {
     color: rgb(0, 255, 179);
     text-decoration: none;
 }
+
 li {
     list-style-type: none;
 }
