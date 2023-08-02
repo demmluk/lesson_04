@@ -1,5 +1,5 @@
 body {
-    background-image: url(/lesson_04/images/bg.jpg);
+    background-image: url(/lesson_04/markup/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-    background-image: url(/lesson_04/images/bg2.jpg);
+    background-image: url(/lesson_04/markup/images/bg2.jpg);
     background-size: 100%;
     width: 100%;
     margin-top: 280px;
